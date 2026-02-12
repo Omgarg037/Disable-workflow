@@ -1,0 +1,18 @@
+name: Disable Workflow video
+
+on: 
+  push: 
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: om garg
+        run: echo "Disable Workflow video DevOps"
+
+
+
+
+
